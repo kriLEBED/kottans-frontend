@@ -16,7 +16,12 @@
 ### My impressions:
 Before starting the course, I already had experience with Git and Github, but this course helped me deepen my knowledge.  
 <br />
-
+## Front-End Basics
+- [x] Intro to HTML & CSS
+- [x] Responsive Web Design
+- [ ] HTML & CSS Practice
+- [ ] JavaScript Basics
+- [ ] Document Object Model - practice
 1. **Intro to HTML & CSS**
       1. [Intro to HTML & CSS](task_html_css_intro/screenshot_intro_html_css.jpg)
       2. [Learn HTML](task_html_css_intro/screenshot_learn_html.jpg)
