@@ -17,11 +17,19 @@
 Before starting the course, I already had experience with Git and Github, but this course helped me deepen my knowledge.  
 <br />
 ## Front-End Basics
-- [ ] Intro to HTML & CSS
-- [ ] Responsive Web Design
+- [x] Intro to HTML & CSS
+- [x] Responsive Web Design
 - [ ] HTML & CSS Practice
+- [ ] JavaScript Basics
 - [ ] Document Object Model - practice
-
+1. **Intro to HTML & CSS**
+      1. [Intro to HTML & CSS](task_html_css_intro/screenshot_intro_html_css.jpg)
+      2. [Learn HTML](task_html_css_intro/screenshot_learn_html.jpg)
+      3. [Learn CSS](task_html_css_intro/screenshot_learn_css.jpg)
+2. **Responsive Web Design**
+      1. [Responsive Web Design Fundamentals]
+      2. [Flexbox Froggy]
+3. **HTML & CSS Practice**
 
 ## Advanced Topics
 - [ ] Building a Tiny JS World (pre-OOP) - practice
