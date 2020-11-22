@@ -1,0 +1,72 @@
+body {
+    font-family: 'Ubuntu', sans-serif; 
+    color: #858282;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #858282;
+}
+.wrapper{
+    max-width: 1110px;
+    padding: 20px 15px;
+    margin: 0 auto;
+}
+/*menu*/
+.nav_menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 24px;
+}
+.menu_item {
+    padding-left: 20px;
+}
+/*submenu*/
+.submenu__btn:checked ~ .submenu {
+    display: block;
+}
+.submenu {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    display: none;
+    width: 33%;
+    min-width: 335px;
+    max-height: 100%;
+    min-height: 520px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .30), 0 2px 6px 2px rgba(60, 64, 67, .15);
+    overflow-x: hidden;
+    background: #fff;
+    box-sizing: content-box;
+    font-size: 18px;
+}
+.submenu-items {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.submenu-item {
+    width: calc(100% / 3);
+    margin-top: 20px;
+}
+.submenu-link:hover {
+    border: solid 2px blue;
+    border-radius: 20px;
+}
+.submenu-link:focus {
+    border: solid 2px red;
+    border-radius: 20px;
+}
+.submenu-item a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.submenu-item p {
+    margin-top: 0;
+}
