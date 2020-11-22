@@ -25,7 +25,7 @@ a {
     padding-left: 20px;
 }
 /*submenu*/
-.submenu__btn:checked ~ .submenu {
+.submenu_btn:checked ~ .submenu {
     display: block;
 }
 .submenu {
@@ -69,4 +69,51 @@ a {
 }
 .submenu-item p {
     margin-top: 0;
+}
+/*more*/
+.more-submenu {
+    display: none;
+    margin-top: 35px;
+    padding: 25px 5px;
+    position: relative;
+}
+.more-submenu:before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #eeeeee;
+    top: 0;
+    left: 0;
+}
+.more_button .more_btn:after {
+    content: 'More';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    color: #858282;
+}
+.more_button {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    position: relative;
+}
+.more_button .more_btn {
+    background: #ebebeb;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    -webkit-appearance: none;
+}
+.more_btn:checked ~ .more-submenu {
+    display: flex;
+}
+.more_btn:checked {
+    display: none;
 }
