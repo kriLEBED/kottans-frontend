@@ -19,7 +19,7 @@ Before starting the course, I already had experience with Git and Github, but th
 ## Front-End Basics
 - [x] Intro to HTML & CSS
 - [x] Responsive Web Design
-- [ ] HTML & CSS Practice
+- [x] HTML & CSS Practice
 - [ ] JavaScript Basics
 - [ ] Document Object Model - practice
 1. **Intro to HTML & CSS**
@@ -30,7 +30,10 @@ Before starting the course, I already had experience with Git and Github, but th
       1. [Responsive Web Design Fundamentals](task_responsive_web_design/screenshot_web_design.jpg)
       2. [Flexbox Froggy](task_responsive_web_design/screenshot_flexbox_froggy.jpg)
 3. **HTML & CSS Practice**
-
+      1. [Demo](https://krilebed.github.io/kottans-frontend/html_css_popup/)
+      2. [Code base](html_css_popup/index.html)
+4. **JavaScript Basics**
+      1. 
 ## Advanced Topics
 - [ ] Building a Tiny JS World (pre-OOP) - practice
 - [ ] Object oriented JS - practice
