@@ -26,7 +26,8 @@ a {
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    border-radius: 5px;
+    border: solid 1px transparent;
+    border-radius: 10px;
     margin: 10px;
     padding: 5px;
 }
@@ -81,11 +82,11 @@ a {
     margin-top: 20px;
 }
 .submenu-link:hover {
-    border: solid 2px blue;
+    background-color: #DCDCDC;
     border-radius: 20px;
 }
 .submenu-link:focus {
-    border: solid 2px red;
+    background-color: #FFE4C4;
     border-radius: 20px;
 }
 .submenu-item a {
