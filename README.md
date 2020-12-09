@@ -27,8 +27,8 @@ Before starting the course, I already had experience with Git and Github, but th
       2. [Learn HTML](task_html_css_intro/screenshot_learn_html.jpg)
       3. [Learn CSS](task_html_css_intro/screenshot_learn_css.jpg)
 2. **Responsive Web Design**
-      1. [Responsive Web Design Fundamentals]
-      2. [Flexbox Froggy]
+      1. [Responsive Web Design Fundamentals](task_responsive_web_design/screenshot_web_design.jpg)
+      2. [Flexbox Froggy](task_responsive_web_design/screenshot_flexbox_froggy.jpg)
 3. **HTML & CSS Practice**
 
 ## Advanced Topics
