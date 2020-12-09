@@ -5,17 +5,13 @@ body {
 li {
     list-style-type: none;
 }
-a {
-    text-decoration: none;
-    color: #858282;
-}
-.wrapper{
+.wrapper {
     max-width: 1110px;
     padding: 20px 15px;
     margin: 0 auto;
 }
 /*menu*/
-.nav_menu{
+.nav_menu {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -34,6 +30,10 @@ a {
 .menu_items:hover {
     border: solid 1px blue;
     border-radius: 10px;
+}
+.menu-link {
+    text-decoration: none;
+    color: #858282;
 }
 .profile-img {
     height: 50px;
@@ -80,6 +80,10 @@ a {
 .submenu-item {
     width: calc(100% / 3);
     margin-top: 20px;
+}
+.submenu-link {
+    text-decoration: none;
+    color: #858282;
 }
 .submenu-link:hover {
     background-color: #DCDCDC;
